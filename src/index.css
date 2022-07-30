@@ -1,0 +1,106 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background:#707A99;
+  margin:0
+}
+
+h2 {
+  background:#707A99;
+  padding:20px;
+  text-align:center;
+  font-size:50px;
+  color:#FFF
+}
+
+
+
+.App {
+  padding:30px;
+  background:#FFF;
+  width:80%;
+  margin:120px auto;
+  box-shadow:1px 2px 5px #EEE
+}
+
+input {
+  width:80%;
+  border:0;
+  padding:15px 30px;
+  background:#e8e8e8;
+  font-size:15px
+}
+
+button {
+  width:20%;
+  border:0;
+  padding:15px 0;
+  margin:0;
+  outline:0;
+  color:#FFF;
+  font-weight:bold;
+  font-size:15px;
+  cursor:pointer;
+  background:#557DC5
+}
+
+ul {
+  list-style:none;
+  padding:0
+}
+
+li {
+  margin:15px 0;
+}
+
+li span {
+  display:inline-block;
+  width:60%;
+  color:#6A6A6A
+}
+
+li > button:first-of-type {
+  background:#6A6A6A;
+  color:#FFF;
+  margin-right:1%;
+  width:19%;
+}
+
+li > button:last-of-type {
+  background:#6661ad;
+  color:#FFF;
+}
+
+ul > form {
+  margin:15px 0;
+}
+
+@media (max-width:768px) {
+  h2 {
+    padding:15px;
+    font-size:30px;
+  } 
+  input {
+    padding:9px 20px;
+  }
+  button {
+    padding:10px 0;
+    font-size:12px;
+  }
+}
+
+@media (max-width:622px) {
+  h2 {
+    padding:10px;
+    font-size:20px;
+  }
+  input {
+    padding:8px 20px;
+  }
+  button {
+    padding:11px 0;
+    font-size:11px;
+  }
+}
